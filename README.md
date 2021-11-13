@@ -32,7 +32,9 @@ typedef struct rv_buf_t rv_buf_t;
 
 ### How to compile :
 
+```sh
 mkdir build
 cd build
 cmake ..
 cmake --build .
+```
