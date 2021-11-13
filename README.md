@@ -1,6 +1,6 @@
 # rv-libsys
 
-## Specific operating system functions and defines :
+### Specific operating system functions and defines :
 
 ```c
 extern int rv_read_file(char *name, rv_buf_t *buf);
@@ -29,3 +29,10 @@ struct rv_buf_t
 };
 typedef struct rv_buf_t rv_buf_t;
 ```
+
+### How to compile :
+
+mkdir build
+cd build
+cmake ..
+cmake --build .
