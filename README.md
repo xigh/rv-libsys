@@ -1,6 +1,6 @@
-# sys-utils
+# rv-libsys
 
-Specific operating system functions and defines :
+## Specific operating system functions and defines :
 
 ```c
 extern int rv_read_file(char *name, rv_buf_t *buf);
